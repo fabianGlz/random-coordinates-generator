@@ -13,8 +13,10 @@ struct point{
 
 
 int main(int argc, char*args[]){
+	
 	int M;
-	M = atoi(args[1]);
+	scanf("introduce Shape of matrix: %d", &M);
+//	M = atoi(args[1]);
 	int i, j;
 	struct point listPoints[M];
 	struct point Coordinate;
@@ -41,5 +43,6 @@ int main(int argc, char*args[]){
 	printf("shape of matrix(%d, %d)\n total coordinates generated: %d\n", M/2, M/2, (M*M)/4);
 
 fclose(File);
+
 return 0;
 }
