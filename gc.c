@@ -1,3 +1,7 @@
+//author: Armando Fabian Gonzalez
+/*
+this program create one list of coordinates in a file
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
